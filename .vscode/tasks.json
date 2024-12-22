@@ -10,12 +10,12 @@
                 "${workspaceFolder}/*.cpp",
                 "${workspaceFolder}/glad/*.c",
                 "-o",
-                "${workspaceFolder}/main", // Output binary in the workspace folder
+                "${workspaceFolder}/main",
                 "-lGL",
                 "-lglfw"
             ],
             "options": {
-                "cwd": "${workspaceFolder}" // Ensure working directory is set correctly
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": [
                 "$gcc"
