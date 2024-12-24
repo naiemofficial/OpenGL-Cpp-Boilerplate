@@ -73,4 +73,4 @@ OpenGL-Cpp-Boilerplate/
 ---
 
 ## Screenshots
-![OpenGL-Triangle](https://github.com/user-attachments/assets/d3b7b99e-fd7d-4af5-a154-f18be3020a0a)
+![OpenGL-Boilerplate-Triangle-Demo](https://github.com/user-attachments/assets/4ce6fda9-605d-4540-a004-c954182e7718)
