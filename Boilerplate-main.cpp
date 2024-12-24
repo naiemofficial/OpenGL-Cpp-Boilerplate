@@ -7,9 +7,9 @@ using namespace std;
 void triangleDemo(){
     glColor3f(0.0f, 0.3f, 1.0f); // Background Color
     glBegin(GL_TRIANGLES);
-    glVertex2f(0.0f, 0.0f);  // A
-    glVertex2f(0.3f, 0.0f);  // B
-    glVertex2f(0.15f, 0.3f); // C
+    glVertex2f(-0.5f, -0.25f);  // A
+    glVertex2f(0.5f, -0.25f);   // B
+    glVertex2f(0.0f, 0.5f);     // C
     glEnd();
 }
 
@@ -23,7 +23,7 @@ int main(void){
         return -1;
 
     // Create a windowed mode window and its OpenGL context
-    window = glfwCreateWindow(640, 480, "Triangle Bird", NULL, NULL);
+    window = glfwCreateWindow(640, 480, "Triangle Demo", NULL, NULL);
     if (!window){
         glfwTerminate();
         return -1;
